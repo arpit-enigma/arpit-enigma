@@ -1,0 +1,18 @@
+apiVersion: backstagearpit/v1alpha1
+kind: Component
+metadata:
+  name: audi
+  # This is an extra long description
+  description: The audi is an example API used to show features of the audi R8.
+  links:
+    - url: https://github.com/swagger-api/swagger-petstore
+      title: GitHub Repo backstagearpit
+      icon: github
+spec:
+  type: service
+  lifecycle: experimental
+  owner: arpit
+  providesApis:
+    - audi a4
+    - audi a6
+    - audi Q7
