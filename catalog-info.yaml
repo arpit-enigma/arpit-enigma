@@ -1,18 +1,23 @@
-apiVersion: backstagearpit/v1alpha1
+apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: audi
-  # This is an extra long description
-  description: The audi is an example API used to show features of the audi R8.
+  name: backstagearpit
+  description: |
+    Backstage Devx is an open-source developer portal that puts the developer experience first.
   links:
-    - url: https://github.com/swagger-api/swagger-petstore
-      title: GitHub Repo backstagearpit
-      icon: github
+    - title: Website
+      url: http://backstage.io
+    - title: Documentation
+      url: https://backstage.io/docs
+    - title: Storybook
+      url: https://backstage.io/storybook
+    - title: Discord Chat
+      url: https://discord.com/invite/EBHEGzX
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/techdocs-ref: url:https://github.com/backstage/backstage
+    lighthouse.com/website-url: https://backstage.io
 spec:
-  type: service
+  type: library
+  owner: CNCF
   lifecycle: experimental
-  owner: arpit
-  providesApis:
-    - audi a4
-    - audi a6
-    - audi Q7
