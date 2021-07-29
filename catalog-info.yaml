@@ -1,4 +1,4 @@
-apiVersion: backstage.io/v1alpha1
+apiVersion: backstage.io/v1alpha12
 kind: Component
 metadata:
   name: backstagearpit
@@ -6,17 +6,17 @@ metadata:
     Backstage Devx is an open-source developer portal that puts the developer experience first.
   links:
     - title: Website
-      url: http://backstage.io
+      url: http://en.wikipedia.org/wiki/Main_Page
     - title: Documentation
-      url: https://backstage.io/docs
+      url: http://en.wikipedia.org/wiki/Main_Page
     - title: Storybook
-      url: https://backstage.io/storybook
+      url: http://en.wikipedia.org/wiki/Main_Page
     - title: Discord Chat
-      url: https://discord.com/invite/EBHEGzX
+      url: http://en.wikipedia.org/wiki/Main_Page
   annotations:
     github.com/project-slug: backstage/backstage
-    backstage.io/techdocs-ref: url:https://github.com/backstage/backstage
-    lighthouse.com/website-url: https://backstage.io
+    backstage.io/techdocs-ref: url:http://en.wikipedia.org/wiki/Main_Page
+    lighthouse.com/website-url: http://en.wikipedia.org/wiki/Main_Page
 spec:
   type: library
   owner: CNCF
