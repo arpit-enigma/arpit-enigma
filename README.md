@@ -2,7 +2,7 @@
 - 👀 I’m interested in ...AWS, Kubernetes, Java, Cloud, Bigdata, Blockchain...and the list goes on...
 - 🌱 I’m currently learning ...AWS, K8s
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...arpitsaxena2906@gmail.com
+- 📫 How to reach me ...arpitsaxena2908@gmail.com
 
 <!---
 arpit-enigma/arpit-enigma is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
